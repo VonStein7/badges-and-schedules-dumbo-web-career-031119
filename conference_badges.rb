@@ -36,9 +36,10 @@ end
 def assign_rooms(attendees)
   room_assignments = Array.new 
   
-  attendees.each {|x| 
-    greeting = "Hello, #{x}! You'll be assigned to room #{idx}!"
+  attendees.each_index {|x| 
+    greeting = "Hello, #{attendees[x]}! You'll be assigned to room #{x}!"
+    room_assignments.push(greeting)
   }
   
-  
+  room_assignments
 end 
