@@ -21,6 +21,6 @@ end
 
 def batch_badge_creator(attendees)
   badges = Array.new
-  attendees.each {|x| badges.push(badge_maker(x)}
+  attendees.each {|x| badges.push(badge_maker(x))}
   badges
 end
