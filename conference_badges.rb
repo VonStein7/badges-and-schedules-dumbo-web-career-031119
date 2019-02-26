@@ -43,3 +43,7 @@ def assign_rooms(attendees)
   
   room_assignments
 end 
+
+def printer(room_assignments) 
+  room_assignments.inspect
+end
