@@ -33,4 +33,6 @@ def batch_badge_creator(attendees)
   badges
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  greeting = 
+end 
