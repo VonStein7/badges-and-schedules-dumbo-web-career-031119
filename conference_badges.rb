@@ -45,5 +45,5 @@ def assign_rooms(attendees)
 end 
 
 def printer(room_assignments) 
-  room_assignments.inspect
+  room_assignments.each {|x| puts x}
 end
