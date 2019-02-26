@@ -24,3 +24,5 @@ def batch_badge_creator(attendees)
   attendees.each {|x| badges.push(badge_maker(x))}
   badges
 end
+
+def assign_rooms
