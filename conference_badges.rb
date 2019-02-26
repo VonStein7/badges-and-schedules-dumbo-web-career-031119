@@ -34,5 +34,11 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  greeting = 
+  room_assignments = Array.new 
+  
+  attendees.each {|x| 
+    greeting = "Hello, #{x}! You'll be assigned to room #{idx}!"
+  }
+  
+  
 end 
